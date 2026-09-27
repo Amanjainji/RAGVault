@@ -472,7 +472,7 @@ This is rendered as citation pills in the chat UI.
 
 ```mermaid
 erDiagram
-    CHAT_SESSIONS ||--o{ MESSAGES : contains
+    CHAT_SESSIONS ||--o { MESSAGES : contains
 
     CHAT_SESSIONS {
         UUID id PK
@@ -501,7 +501,6 @@ erDiagram
         VECTOR_384 embedding
         TSVECTOR text_search_vector
         TIMESTAMPTZ created_at
-    }
 }
 ```
 
